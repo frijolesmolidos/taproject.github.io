@@ -1,0 +1,24 @@
+.spinnyelement {
+
+	height: 200px;
+	width: 200px;
+	background-color: fuchsia; 
+	display: flex;
+
+
+animation-name: spin;
+animation-duration: 3s;
+}
+
+@keyframes spin{
+    0%{
+
+    }
+50%{
+    scale:2;
+}
+100%{
+	Transform: rotate(360deg);
+	Border-radius: 50%;
+    }
+}
